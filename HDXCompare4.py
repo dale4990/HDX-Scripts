@@ -1,3 +1,12 @@
+"""
+Created on Fri Jul 22 2021
+
+@author: daniellee
+
+Script to compare peptides based on user input
+
+"""
+
 import pandas as pd
 import matplotlib.pyplot as plt
 #import numpy as np
@@ -7,7 +16,7 @@ inhib2 = input("\nSecond inhbitor to plot? ")
 inhib3 = input("\nThird inhbitor to plot? ")
 inhib4 = input("\nFourth inhbitor to plot? ")
 
-#Replace csv names for rawdata here
+#Replace csv names for rawdata here if needed
 
 def select_inhib(inhib, rawdata, protein, df):
     if inhib in ['Apo', 'apo']:
