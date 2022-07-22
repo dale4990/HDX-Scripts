@@ -1,0 +1,7 @@
+All scripts are written in python3
+
+For HDXCompare4.py, make sure to name the csv files in the form 'G@-@P.csv'
+For example, G7-0P.csv, G16-2P.csv, etc. with letters capitalized. 
+Else, you have to manually edit the python script at the function select_inhib for the pd.read_csv arguments.
+
+The script will only graph all 4 plots if the selected peptide exist in all 4 inhibitors. Else you will get an error.
